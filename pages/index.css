@@ -152,6 +152,12 @@
 .reservation__title {
   margin: 0 0 80px ;
   text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+
 }
 
 .reservation__form {
@@ -181,12 +187,18 @@
 
 }
 
-.form_button{
+.form__button{
   border-radius: 4px;
   width: 100%;
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
 }
 
 .form__checkbox{
@@ -199,4 +211,9 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
