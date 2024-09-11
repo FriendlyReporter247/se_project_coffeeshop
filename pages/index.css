@@ -160,7 +160,7 @@
 
 .form {
   max-width: 385px;
-  background-image: url(../images/background_reservation.svg)
+  background-image: url(../images/background_reservation.svg);
   background-size: cover;
 }
 
