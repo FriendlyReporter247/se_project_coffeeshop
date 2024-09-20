@@ -31,7 +31,12 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    background-color: #1878dc;
+    cursor: pointer;
+  }
 
+  .form__button:hover{
+    background-color: #3f96f3;
   }
 
   .form__checkbox{
