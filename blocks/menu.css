@@ -1,21 +1,22 @@
-.menu{
+.menu {
   padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(../images/background_menu.svg);
+  background-position: center;
 }
 
-.menu__title{
+.menu__title {
   margin: 0 0 24px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
 
-.menu__subtitle{
+.menu__subtitle {
   margin: 0 0 100px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -32,5 +33,4 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
-
 }

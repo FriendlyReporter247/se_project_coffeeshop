@@ -1,7 +1,7 @@
-.about{
-  background-color: #0A2850;
+.about {
+  background-color: #0a2850;
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,7 @@
   z-index: 0;
 }
 
-.about__title{
+.about__title {
   max-width: 251px;
   font-weight: 500;
   font-size: 44px;
@@ -18,23 +18,23 @@
   margin: 0;
 }
 
-.about__content{
+.about__content {
   max-width: 660px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.about__paragraph{
-  font-family: "Noto Serif";
-   font-size: 20px;
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
   line-height: 30px;
   margin: 0;
 }
 
-.about__circle{
+.about__circle {
   position: absolute;
-  background-color: #1878DC;
+  background-color: #1878dc;
   border-radius: 50%;
   width: 426px;
   height: 426px;
@@ -43,26 +43,21 @@
   z-index: -1;
 }
 
-.about__circle_animation_blurred{
+.about__circle_animation_blurred {
   animation: pulsate 2s ease-in-out 0s infinite;
-
 }
 
 @keyframes pulsate {
   0% {
-    opacity:  0;
-
+    opacity: 0;
   }
 
   50% {
     opacity: 0.6;
-
   }
 
   100% {
     opacity: 0;
     transform: scale(1.3);
-
   }
-
 }

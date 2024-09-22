@@ -1,16 +1,16 @@
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
 }
 
-.nav__logo{
+.nav__logo {
   position: relative;
   left: -50px;
   height: 39px;
   width: 105px;
 }
 
-.nav__links{
+.nav__links {
   display: flex;
   list-style: none;
   gap: 20px;
