@@ -36,6 +36,13 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+
+.footer__social-link:hover{
+  color: #f0f0f0;
 }
 
 .footer__social-icon {

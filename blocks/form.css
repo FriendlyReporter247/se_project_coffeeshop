@@ -50,12 +50,6 @@
 }
 
 .form__label {
-}
-
-.form__label_type_checkbox {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -63,5 +57,13 @@
   line-height: 20px;
 }
 
+.form__label_type_checkbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+
+}
+
 .form__input-type-checkbox {
+  border-radius: 2px;
 }
