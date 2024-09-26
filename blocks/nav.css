@@ -29,11 +29,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  transition: color 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   cursor: pointer;
-  text-decoration: ;
+  text-decoration: none;
+  color: #000;
 }
 
 .nav__link :hover {
-
+  opacity: 50%;
 }

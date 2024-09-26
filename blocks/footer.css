@@ -1,6 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
+  padding: 60px 80px;
 }
 
 .footer__content {
@@ -36,13 +37,13 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  transition: color 0.2s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   cursor: pointer;
 }
 
 
 .footer__social-link:hover{
-  color: #f0f0f0;
+  opacity: 70%;
 }
 
 .footer__social-icon {
